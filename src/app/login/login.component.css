@@ -1,0 +1,23 @@
+.example-card{
+    margin: auto;
+    width: 68%;
+    margin-top: 80px;
+}
+
+.example-full-width{
+    padding: 20px;
+    width: 100%;
+}
+
+.nav{
+    padding: 10%;
+}
+
+button{
+    min-width: 50px;
+}
+
+.butt {
+    padding-left: 30px;
+    width: 50%;
+}
