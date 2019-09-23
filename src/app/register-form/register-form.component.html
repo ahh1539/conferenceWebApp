@@ -1,4 +1,6 @@
+<app-navbar class="nav"></app-navbar>
 <form [formGroup]="addressForm" novalidate (ngSubmit)="onSubmit()">
+  <div id="shipping-card">
   <mat-card class="shipping-card">
     <mat-card-header>
       <mat-card-title>Registration Page</mat-card-title>
@@ -106,4 +108,5 @@
       <button mat-raised-button color="primary" type="submit">Submit</button>
     </mat-card-actions>
   </mat-card>
+</div>
 </form>

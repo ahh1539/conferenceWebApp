@@ -25,3 +25,10 @@
 .col:last-child {
   margin-right: 0;
 }
+
+.shipping-card {
+  margin: auto;
+  width: 68%;
+  margin-top: 80px;
+  height: 100%;
+}
