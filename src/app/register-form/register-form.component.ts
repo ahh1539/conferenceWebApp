@@ -37,8 +37,10 @@ export class RegisterFormComponent {
   constructor(private fb: FormBuilder, private router: Router, private regService: Register) {}
 
   onSubmit() {
-    this.regService.setUser(this.getUsername(), this.getPassword());
-    this.router.navigateByUrl('/');
+    if(confirm("Are you sure everything is correct? ")) {
+      this.regService.setUser(this.getUsername(), this.getPassword());
+      this.router.navigateByUrl('/');
+    }
   }
 
   getPassword(){
